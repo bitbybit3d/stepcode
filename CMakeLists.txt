@@ -57,6 +57,7 @@ if(COMMAND CMAKE_POLICY)
   if ("${CMAKE_VERSION}" VERSION_GREATER 2.99)
     CMAKE_POLICY(SET CMP0026 OLD)
   endif ("${CMAKE_VERSION}" VERSION_GREATER 2.99)
+  CMAKE_POLICY(SET CMP0077 NEW)
 endif(COMMAND CMAKE_POLICY)
 
 # CMake derives much of its functionality from modules, typically
